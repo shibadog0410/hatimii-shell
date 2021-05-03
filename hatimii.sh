@@ -41,7 +41,7 @@ do
         elif [ "$DATA" = "1" ]; then
             INPUT="${INPUT}${HAYAKUUNARUU} "
             USERINPUT="${USERINPUT}1"
-                read -p "0:はちみー, 1:終了 " DATA
+                read -p "0:${HATIMII}, 1:終了 " DATA
                 if [ "$DATA" = "0" ]; then
                     INPUT="${INPUT}${HATIMII} "
                     USERINPUT="${USERINPUT}0"
